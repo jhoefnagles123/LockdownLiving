@@ -1,0 +1,516 @@
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.5);
+    font-family: Arial;
+    height:auto;
+    font-size: 2vw;
+    margin:0;
+    padding-left: 3%;
+    padding-right: 1%;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    width:20%;
+    float: left;
+    font-size: 80%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    width:30vw;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    width: 30vw;
+    font-size: 80%;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5%;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+
+  
+  /* background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: black;
+    background-color:rgba(253, 253, 253, 0.5);
+  }
+  
+  /* Dropdown content  */
+  .dropdown-content {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 80%;
+  }
+  
+  /* Links inside dropdown */
+  .dropdown-content a {
+    width: 100%;
+    float: none;
+    color: white;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:rgba(253, 253, 253, 0.5);
+    border-radius: 20px;
+    color: black;
+  }
+
+  #dropdownButtons{
+      width:90%;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    width: 30vw;
+  }
+  
+ #dropdownMessage{
+     text-align: center;
+     padding-top: 5px;
+     color:white;
+ }
+
+
+
+
+/*ANSWERS*/
+
+.answersBody{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family:  Arial, Helvetica, sans-serif;
+    padding-bottom: 0;
+    padding-right: 0;
+
+}
+
+/*BACKGROUNDIMAGES*/
+
+#gardenImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/garden1.jpg");
+}
+
+#cooksyImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/cooksy2.jpg");
+}
+
+#booksyImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/booksy1.jpg");
+}
+
+#artsyImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/artsy1.jpg");
+}
+
+#tvImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/telly2.jpg");
+}
+
+a{
+    text-decoration: none;
+    margin: 0.1%; 
+}
+
+button{
+    color: #fff;
+
+}
+
+.coronaTitle{
+    width:100%;
+    text-align: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    line-height: 10px;
+    margin:0;
+    margin-right: 5%;
+}
+
+.coronaContentTitle{
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 4.5vw;
+    line-height: 4vw;
+    margin:0;
+    margin-top:10% ;
+}
+
+
+.titleContainer{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+}
+
+#introContainer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height:auto;
+    border: none;
+}
+
+#alignIntro{
+    padding:5%;
+    font-size: 3vw;
+}
+
+#subTitles{
+    text-align: right;
+    font-size: 1vw;
+    margin:0;
+    letter-spacing: 0.18em;
+}
+
+#coronaIcon{
+    text-align: right;
+    margin-top:1% ;
+
+}
+
+
+.contentContainers{
+    display: block;
+    padding: 0%;
+    font-size: 1.5vw;
+    width: 27vw;
+    height:20vw;
+    border: 2px solid white;
+    border-radius: 3vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+.extraIcon{
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0);
+}
+/*extra text in icons appearing on hover*/
+.contentContainers:hover .extraIcon{
+    color: rgba(0, 0, 0, 1);
+    }
+
+/*images in all icons*/  
+/*grassy*/
+#podcastIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/podcast.jpeg");
+    color: white;
+}
+
+#podcastIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/podcast.jpeg");
+    cursor: url('ANSWERS/waterinCan.png');	
+}
+
+
+#kidsGardeningIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/garden2.jpg");
+
+}
+
+
+#kidsGardeningIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/garden2.jpg");
+
+}
+
+#gardenDrinksIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/garden3.jpg");
+
+}
+
+#gardenDrinksIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/garden3.jpg");
+
+}
+
+/*cooksy*/
+#jMonroeIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/cooking4.jpg");
+
+}
+
+#jMonroeIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/cooking4.jpg");
+
+}
+
+#bbcGoodfoodIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/cooksy3.jpg");
+
+}
+
+#bbcGoodfoodIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/cooksy3.jpg");
+
+}
+
+#gRamsayIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/cooksy1.jpg");
+
+}
+
+#gRamsayIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/cooksy1.jpg");
+
+}
+/*booksy*/
+
+#goodreadsIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/books4.jpg");
+
+}
+#goodreadsIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/books4.jpg");
+
+}
+
+#bookPodcastIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/booksy4.jpg");
+
+}
+#bookPodcastIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/booksy4.jpg");
+
+}
+#mAtwoodIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/books2.jpg");
+
+}
+#mAtwoodIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/books2.jpg");
+
+}
+
+
+/*artsy*/
+#bobRossIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/artsy2.jpg");
+
+}
+#bobRossIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/artsy2.jpg");
+
+}
+
+#sadgradsIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/artsy3.jpg");
+
+}
+#sadgradsIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/artsy3.jpg");
+
+}
+#lifeDrawingIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/artsy4.jpg");
+
+}
+#lifeDrawingIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/artsy4.jpg");
+
+}
+
+/*telly*/
+#mubiIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/telly5.jpg");
+
+}
+
+#mubiIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/telly5.jpg");
+
+}
+
+#gftIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/telly3.jpg");
+
+}
+#gftIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/telly3.jpg");
+
+}
+#letterboxdIcon{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/telly5.jpg");
+
+}
+#letterboxdIcon:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/telly5.jpg");
+
+}
+
+
+.pageLayout{
+    width: 100%;
+    display:inline-flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*QUESTIONS */
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding:0;
+}
+
+
+a{
+    color:white;
+}
+a:hover{
+    color:black;
+}
+
+
+.hero .btn {
+   
+    display: block;
+    width: 20vw;
+    
+    padding: 1em;
+    margin-top: 5;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+    color: white;
+    text-decoration: none;
+    font-size: 4vw;
+    
+   
+    border: 2px solid white;
+    border-radius: 3vw;
+    
+    display:inline-block;
+   }
+
+.hero {
+   
+    width: 100vw;
+    height: 100vh;
+    padding: 0%;
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    text-align: center;
+    color: white;
+    
+    /*The URL on the end of this line changes the background image */
+  
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-inner {
+width:90%;
+}
+
+
+#outdoorsQuestionImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/GARDENING.jfif');
+}
+
+#creativeQuestionImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/PAINT\ \(1\).jfif');
+}
+
+#homeImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/homepage.jpg');
+}
+
+#cookingQuestionImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/cooksy1.jpg');
+}
+
+#tvQuestionImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/telly4.jpg');
+}
+
+#bookQuestionImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/books2.jpg');
+}
+
+
+.hero h1 {
+   
+    font-size: 4.5vw;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family:Arial;
+    color:white;
+    text-decoration:none;
+}
+
+.hero h1 a {
+   
+    font-size: 6.5vw;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family:Arial;
+    color:white;
+    text-decoration:none;
+}
+
+.hero h2 {
+   
+    font-size: 8vw;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family:Arial;
+}
+
+.hero h3 {
+    font-size: 9vw;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family:Arial;
+}
+
