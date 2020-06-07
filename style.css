@@ -231,148 +231,148 @@ button{
 /*images in all icons*/  
 /*grassy*/
 #podcastIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/podcast.jpeg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/podcast.jpeg");
     color: white;
 }
 
 #podcastIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/podcast.jpeg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/podcast.jpeg");
     cursor: url('ANSWERS/waterinCan.png');	
 }
 
 
 #kidsGardeningIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/garden2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/garden2.jpg");
 
 }
 
 
 #kidsGardeningIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/garden2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/garden2.jpg");
 
 }
 
 #gardenDrinksIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/garden3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/garden3.jpg");
 
 }
 
 #gardenDrinksIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/garden3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/garden3.jpg");
 
 }
 
 /*cooksy*/
 #jMonroeIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/cooking4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/cooking4.jpg");
 
 }
 
 #jMonroeIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/cooking4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/cooking4.jpg");
 
 }
 
 #bbcGoodfoodIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/cooksy3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/cooksy3.jpg");
 
 }
 
 #bbcGoodfoodIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/cooksy3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/cooksy3.jpg");
 
 }
 
 #gRamsayIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/cooksy1.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/cooksy1.jpg");
 
 }
 
 #gRamsayIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/cooksy1.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/cooksy1.jpg");
 
 }
 /*booksy*/
 
 #goodreadsIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/books4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/books4.jpg");
 
 }
 #goodreadsIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/books4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/books4.jpg");
 
 }
 
 #bookPodcastIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/booksy4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/booksy4.jpg");
 
 }
 #bookPodcastIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/booksy4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/booksy4.jpg");
 
 }
 #mAtwoodIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/books2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/books2.jpg");
 
 }
 #mAtwoodIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/books2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/books2.jpg");
 
 }
 
 
 /*artsy*/
 #bobRossIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/artsy2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/artsy2.jpg");
 
 }
 #bobRossIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/artsy2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/artsy2.jpg");
 
 }
 
 #sadgradsIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/artsy3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/artsy3.jpg");
 
 }
 #sadgradsIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/artsy3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/artsy3.jpg");
 
 }
 #lifeDrawingIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/artsy4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/artsy4.jpg");
 
 }
 #lifeDrawingIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/artsy4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/artsy4.jpg");
 
 }
 
 /*telly*/
 #mubiIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/telly5.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/telly5.jpg");
 
 }
 
 #mubiIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/telly5.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/telly5.jpg");
 
 }
 
 #gftIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/telly3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/telly3.jpg");
 
 }
 #gftIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/telly3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/telly3.jpg");
 
 }
 #letterboxdIcon{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("media/telly5.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Media/telly5.jpg");
 
 }
 #letterboxdIcon:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("media/telly5.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.7)), url("Media/telly5.jpg");
 
 }
 
@@ -457,27 +457,27 @@ width:90%;
 
 
 #outdoorsQuestionImg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/GARDENING.jfif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Media/GARDENING.jfif');
 }
 
 #creativeQuestionImg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/PAINT\ \(1\).jfif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Media/PAINT\ \(1\).jfif');
 }
 
 #homeImg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/media/homepage.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Media/homepage.jpg');
 }
 
 #cookingQuestionImg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/cooksy1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Media/cooksy1.jpg');
 }
 
 #tvQuestionImg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/telly4.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Media/telly4.jpg');
 }
 
 #bookQuestionImg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('media/books2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('Media/books2.jpg');
 }
 
 
